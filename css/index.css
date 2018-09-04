@@ -1,0 +1,2715 @@
+/*设置通用属性*/
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-family:'Tahoma';
+	
+} 
+a,.main1 a{
+	text-decoration:none;
+}
+/*设置主体框架属性*/
+body{
+	margin: 0 auto;
+	width:1190px;
+	height:11380px;
+	background: #f4f4f4;
+	overflow-x: hidden;
+}
+/*设置字体不换行保留自己*/
+.good,.Modena,.guanyu,.shi_bao,.search_nav li{
+	white-space:nowrap;
+}
+
+/*设置字体单独颜色*/
+.red{
+	color: red;
+	text-align: center;
+	font-size: 13px;
+}
+/*设置字体单独颜色*/
+#red{
+	color: red;
+	text-align: center;
+	font-size: 13px;
+}
+/*设置头部框架*/
+#header{
+	margin: 0 auto;
+	width: 1190px;
+    height: 35px;
+    position: relative;
+    background: #f5f5f5;
+}
+/*设置左侧导航栏*/
+.nav{
+	width:300px;
+	height: 35px;
+	position: absolute;
+	left:0px;
+}
+/*设置地址切换头部*/
+.ch{
+	width:65px;
+	height: 50px;
+	display: inline-block;
+	padding-left: 8px;
+	line-height: 35px;
+	font-size: 12px;
+}
+/*设置下拉栏容器*/
+.ch1{
+	width:269px;
+	height:288px;
+	position: absolute;
+	top:34px;
+	line-height: 35px;
+	font-size: 12px;
+	background: #fff;
+	overflow-y:scroll; 
+	margin-top: 0px;
+	z-index: 1;
+}
+/*设置Li样式*/
+.ch1 li{
+	padding-left:13px;
+}
+/*设置导航栏1*/
+.nav1{
+	width:72%;
+	height:35px;
+	position: absolute;
+	top: 2px;
+	right: 0px;
+}
+/*设置li样式*/
+.nav1 li{
+	float: left;
+	line-height: 31px;
+	font-size: 12px;
+	padding: 0 5px 0 5px;
+
+}
+
+/*设置导航栏2*/
+.nav2{
+	width:600px;
+	height:35px;
+	position: absolute;
+	top: 0px;
+	right:-31px;
+}
+/*我的淘宝*/
+.nav2_may{
+	width: 90px;
+	height: 74px;
+	z-index: 1;
+	color: #666;
+	line-height: 35px;
+    font-size: 12px;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	background: #fff;
+}
+/*设置下拉栏样式*/
+.nav2_may>p{
+	padding-left:13px; 
+}
+/*购物*/
+.gouwu{
+	position: relative;
+	top:3px;
+}
+/*卖家中心*/
+.mai{
+	width:65px;
+	position: relative;
+}
+.mai_may{
+	width: 84px;
+	height: 213px;
+	color: #666;
+	font-size: 12px;
+	line-height: 25px;
+	background: #fff;
+	position: absolute;
+	top: 30px;
+	right:189px;
+	z-index: 1;
+}
+/**/
+.mai_may p{
+	 padding-left:5px; 
+}
+/**/
+.maytao{
+	width:70px;
+}
+/*联系客服*/
+.kfu{
+	width:65px;
+	position: relative;
+}
+/*下拉菜单*/
+.kfu_may{
+	width: 71px;
+	height: 70px;
+	color: #666;
+	font-size: 12px;
+	padding-left:5px; 
+	line-height: 25px;
+	background: #fff;
+	position: absolute;
+	top: 30px;
+	right:119px;
+	z-index: 1;
+}
+/*收藏*/
+.shou{
+	width: 70px;
+	position: relative;
+}
+.xing{
+	font-size:14px;
+	color:#a0a0a0;
+	display: inline-block;
+}
+/*收藏夹下拉栏*/
+.shou_may{
+	width: 74px;
+	height: 74px;
+	color: #666;
+	line-height: 35px;
+    font-size: 12px;
+	text-align: center;
+	background: #fff;
+	position: absolute;
+	top: 30px;
+	left:166px;
+	z-index: 1;
+}
+/*设置li样式*/
+.nav2>li{
+	float: left;
+	line-height: 35px;
+	font-size: 12px;
+	padding-left: 3px;
+	padding: 0 5px 0 8px;
+
+}
+/*网站导航*/
+.wz{
+	width: 1192px;
+	height: 310px;
+	position: absolute;
+	top:30px;
+	left:0px;
+	background:#fff;
+	z-index: 1;
+}
+/*网站导航 下拉菜单*/
+.wz_zhuti,.wz_tese,.wz_aliapp,.wz_jincai{
+	width:22.8%;
+	height: 92%;
+	padding: 1%;
+}
+/*网站导航 下拉菜单 右侧边框*/
+.wz_zhuti,.wz_tese,.wz_aliapp{
+	border-right:1px solid #f0f0f0;
+}
+/*网站导航 下拉菜单 底部边框*/
+.wz_zhuti,.wz_tese,.wz_aliapp,.wz_jincai{
+	float: left;
+	border-bottom:1px solid #f0f0f0;
+}
+/*主题市场标题*/
+.wz_zhuti h3,.wz_tese h3,.wz_aliapp h3,.wz_jincai h3{
+	font-size: 17px;
+	font-family: '宋体';
+	font-weight: bold;
+}
+/*主题市场标题*/
+.wz_zhuti h3{
+	color: #fc4200;
+}
+/*设置 li样式*/
+.wz_zhuti li{
+	width: 23%;
+	padding: 5px 5px 5px 0;
+	float: left;
+}
+/*设置 a样式*/
+.wz_zhuti a{
+	padding: 5px;
+	border-radius: 4px;
+	color:#666;
+	font-family: '宋体';
+	font-size: 13px;
+}
+/*特色标题*/
+.wz_tese h3{
+	color: #9fb838;
+}
+/*设置 li样式*/
+.wz_tese li{
+	width: 31%;
+	padding: 5px 5px 5px 0;
+	float: left;
+}
+/*设置 a样式*/
+.wz_tese a{
+	color:#666;
+	font-family: '宋体';
+	padding: 5px;
+	border-radius: 4px;
+	font-size: 13px;
+}
+/*阿里app标题*/
+.wz_aliapp h3{
+	color: #d75696;
+	font-family: '黑体';
+}
+/*设置 li样式*/
+.wz_aliapp li{
+	width: 31%;
+	padding: 5px 5px 5px 0;
+	float: left;
+}
+/*设置 a样式*/
+.wz_aliapp a{
+	color:#666;
+	font-family: '宋体';
+	padding: 5px;
+	border-radius: 4px;
+	font-size: 13px;
+}
+/*精彩锦集标题*/
+.wz_jincai h3{
+	color: #40a7de;
+}
+/*设置 li样式*/
+.wz_jincai li{
+	width: 47%;
+	padding: 5px 5px 5px 0;
+	float: left;
+}
+/*设置 a样式*/
+.wz_jincai a{
+	color:#666;
+	padding: 5px;
+	border-radius: 4px;
+	font-family: '宋体';
+	font-size: 13px;
+}
+/*第二栏 广告*/
+.banner_warp{
+	width:1190px;
+	height:100px;
+	position:relative;display: none;
+	background: url(../imgs/广告背景1.png) no-repeat  -290px 0;
+}
+/*头部左侧天猫logo*/
+.banner_warp>img{
+	width:6.6%;
+	height:80%;
+	padding: 0.5% 1% 0.5% 1%;
+	margin-left: 6%;
+}
+
+/*第二栏 左侧背景*/
+.banner_gg_L{
+	width: 360px;
+	height: 795px;
+	background: url(../imgs/左侧广告背景.jpg) no-repeat;
+	position:absolute;
+	left: -360px;
+	top:135px;
+}
+/*第二栏 左侧背景*/
+.banner_gg_R{
+	width: 360px;
+	height: 795px;
+	position:absolute;
+	background: url(../imgs/右侧广告背景.jpg) no-repeat;
+	right:-360px;
+	top:135px;
+}
+/*广告*/
+.banner{
+	width:85.5%;
+	height:76.1%;
+	position:absolute;
+	top:0;
+	right: 0;
+	padding: 1% 0% 1% 0%;
+}
+/*精简代码设置通用属性*/
+.banner1,.banner2,.banner3,.banner4,.banner5{
+	width: 191px;
+	height: 80px;
+	background-size:cover;
+	position:absolute;
+	top: 10px;
+	padding:5px 5px 5px 5px;
+	border-radius:7%;
+}
+/*潮流男装*/
+.banner1{
+	background:url(../imgs/紫.jpg)no-repeat;
+}
+/*卡券美食*/
+.banner2{
+	background:url(../imgs/橙.jpg)no-repeat;
+	left: 204px;
+}
+/*国际服饰*/
+.banner3{
+	background:url(../imgs/粉.jpg)no-repeat;
+	left: 407px;
+}
+/*潮流男鞋*/
+.banner4{
+	background:url(../imgs/蓝.jpg)no-repeat;
+	left: 612px;
+}
+/*孕产会场*/
+.banner5{
+	background:url(../imgs/绿.jpg)no-repeat;
+	left: 816px;
+}
+/*精简代码设置标题通用属性*/
+.title{
+	width: 45%;
+	font-size: 18px;
+	font-family:'宋体';
+	font-weight: bold;
+	position:absolute;
+	color: #fff;
+	top:21%;
+	left:11%;
+}
+/*精简代码设置文字通用属性*/
+.text{
+	width: 100%;
+	font-family:'宋体';
+	font-size: 14px;
+	position:absolute;
+	color: #fff;
+	top:53%;
+	left:11%;
+}
+/*精简代码设置图片通用属性*/
+.banner_pic{
+	width: 28.32%;
+	height:75.23%;
+	border-radius: 9%;
+	position:absolute;
+	right:12%;
+	top: 13%;
+}
+/*设置图片样式*/
+.banner_pic img{
+	width: 100%;
+}
+/*第三栏 搜索*/
+.search{
+	margin:0 auto;
+	width:1190px;
+	height: 1.22%;
+	position:relative;
+	background: #fff;
+}
+/*设置ul样式*/
+#baby{
+	width: 108px;
+	height:24px;
+	position:absolute;
+	left: 3%;
+	top:10%;
+}
+/*设置li样式*/
+#baby li{
+	width:35px;
+	height:22px;
+	color: red;
+	font-size: 12px;
+	line-height: 22px;
+	text-align: center;
+	float: left;
+}
+/**/
+#baby a{
+	width: 35px;
+	height: 22px;
+	float: left;
+	display: block;
+	border-radius: 22% 22% 0% 0%;
+}
+/*设置单独li样式*/
+#baby .baby_pic{
+	background:#ff7300;
+	color:#fff;
+	border-radius: 22% 22% 0% 0%;
+	font-weight: bold;
+}
+
+/*设置中间搜索栏容器样式*/
+.sch{
+	width: 53.8%;
+	height:75.23%;
+	position:absolute;
+	bottom:0%;
+	left:20%;
+}
+/*设置input样式*/
+#input{
+	width: 652.92px;
+	height:37.41px;
+	border:2px solid #ff7300;
+	border-radius:40px;
+	padding-left: 10px;
+	position:absolute;
+	top:33px;
+	left:0px;
+}
+/*设置导航栏盒子样式*/
+.search_nav{
+	width: 729px;
+	height:32%;
+	overflow: hidden;
+	position:absolute;
+	bottom:0%;
+	left:0%;
+}
+/*设置li样式*/
+.search_nav li{
+	height:32%;
+	font-size: 12px;
+	line-height: 22px;
+	text-align: center;
+	float: left;
+	margin:5px;
+}
+/*设置span样式*/
+.earch_nav>span{
+	height:32%;
+	font-size: 12px;
+	margin:5px;
+	line-height: 22px;
+	text-align: center;
+	float: right;
+}
+/*设置更多样式*/
+.gen{
+	position: relative;
+	top: 5px;
+	left: 10px;
+	cursor: pointer;
+	font-size: 14px;
+	color:#666;
+}
+/*右侧二维码*/
+.mm{
+	width:76px;
+	height:90px;
+	border:1px solid #eeeeee;
+	position:absolute;
+	bottom:0%;
+	right:9%;
+}
+/*右侧二维码关闭*/
+.mm .close{
+	width:20px;
+	height:20px;background: #fff;
+	position:absolute;
+	top:0%;
+	left:-25%;
+	border:1px solid #eeeeee;
+	color: #eeeeee;
+}
+/*右侧二维码图片样式*/
+.mm img{
+	width:62px;
+	height:62px;
+	cursor:pointer;
+	position:absolute;
+	bottom:8%;
+	right:10%;
+}
+.zt_nav{
+	margin:0 auto;
+	width:1190px;
+	height:30px;
+	background:#ff5000;
+}
+
+.zt_nav>h2{
+	width:16%;
+	text-align: center;
+	color: #fff;
+	float: left;
+	font-size: 16px;
+	line-height: 30px;
+}
+.zt_nav .jh_pic{
+	background: url(../imgs/条毛背景.png) no-repeat;
+	position: relative;
+}
+.miao1{
+	width:37px;
+	height: 10px;
+	position: absolute;
+	top:-12px;
+	display: none;
+	left: 6px;
+}
+.miao2{
+	width:37px;
+	height: 10px;
+	display: none;
+	position: absolute;
+	top:-12px;
+	left: 59px;
+}
+.miao3{
+	width:37px;
+	height: 10px;
+	display: none;
+	position: absolute;
+	top:-12px;
+	left: 124px;
+}
+.miao1 img,.miao2 img,.miao3 img{
+	position: absolute;
+	width: 100%;
+}
+
+.zt_nav ul{
+	float: left;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+	
+}
+.zt_nav ul li{
+	float: left;
+	margin:0 7px 0 7px; 
+}
+
+/*第四栏*main1******/
+.main1{
+	width:1190px;
+	height:624px;
+	margin:0 auto;
+	position:relative;
+}
+/*main1左侧*/
+.main1_box1{
+	width:190px;
+	height:522px;
+	color:#666666;
+	font-size:16px;
+	line-height:30px;
+	background:#fff;
+	position:absolute;
+	background:#fff;
+	border: 1px solid red;
+}
+/*设置li样式*/
+.main1_box1 li{
+	padding-top:1.5px;
+	padding-left:13px;
+}
+/*设置a样式*/
+.main1_box1 a:hover{
+	color: red;
+}
+.main1_box1 a{
+	color: #666666;
+}
+
+/*选项卡*/
+.NEW1{
+	width:714px;
+	height: 524px;
+	display: none;
+	z-index: 1;
+	position: absolute;
+	top: 0%;
+	left: 16%;
+	background: #fff;
+}
+/*左侧样式*/
+.NEW_left{
+	width:417px;
+	height: 494px;
+	float: left;
+	padding: 15px 20px;
+	border-left:1px solid #f0f0f0;
+}
+/*左侧NEW_left2标题样式*/
+.NEW_left1 h3{
+	font-family: '宋体';
+}
+/*更多样式*/
+.NEW_left1 h3 span{
+	font-size: 14px;
+	font-weight: lighter;
+	color:#999;
+	position: relative;
+	top: 0%;
+	left:84%;
+}
+/*左侧NEW_left1*/
+.NEW_left1{
+	position: relative;
+	top:0%;
+}
+/*设置li样式*/
+.NEW_left1 li{
+	width:78px;
+	float: left;
+}
+/*设置a样式*/
+.NEW_left1 li a{
+	color:#666;
+	font-size: 13px;
+	font-family: '宋体';
+}
+/*左侧标题样式*/
+.NEW_left2 h3{
+	clear: both;
+	font-family: '宋体';
+}
+/*更多样式*/
+.NEW_left2 h3 span{
+	font-size: 14px;
+	font-weight: lighter;
+	color:#999;
+	position: relative;
+	top: 0%;
+	left:84%;
+}
+/*设置li样式*/
+.NEW_left2 li{
+	width:78px;
+	float: left;
+}
+/*设置a样式*/
+.NEW_left2 li a{
+	color:#666;
+	font-size: 13px;
+	font-family: '宋体';
+}
+/*设置NEW_left2*/
+.NEW_left2{
+	clear: both;
+	position: relative;
+	top:4%;
+}
+/*设置NEW_left3*/
+.NEW_left3{
+	clear: both;
+	position: relative;
+	top:14%;
+	left:0%;
+}
+/*左侧NEW_left3标题样式*/
+.NEW_left3 h3{
+	clear: both;
+	font-family: '宋体';
+}
+/*更多样式*/
+.NEW_left3 h3 span{
+	font-size: 14px;
+	font-weight: lighter;
+	color:#999;
+	position: relative;
+	top: 0%;
+	left:84%;
+}
+/*设置li样式*/
+.NEW_left3 li{
+	width:78px;
+	float: left;
+}
+/*设置a样式*/
+.NEW_left3 li a{
+	color:#666;
+	font-size: 13px;
+	font-family: '宋体';
+}
+
+/*选项卡右侧盒子*/
+.NEW_right{
+	padding:20px 10px 0 10px; 
+	width:236px;
+	height: 504px;
+	float: right;
+}
+/*选项卡右侧标题*/
+.NEW_right h4{
+	text-align: center;
+	font-size: 20px;
+	font-family: '宋体';
+	font-weight: lighter;
+}
+/*商品开始*/
+.NEW_right1{
+	width: 98px;
+	height:124px;
+	font-size: 12px;
+	float: left;
+	margin:0 10px 0 10px;
+	color: #d0d0d0;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+/*设置字体样式*/
+.NEW_right1{
+	
+}
+/*设置右侧商品图片*/
+.N_r_pic{
+	width: 98px;
+	height: 98px;
+	background: #a0a0a0;
+}
+/*设置图片符合容器*/
+.NEW_right img{
+	width: 100%;
+	opacity:0.9;
+}
+/*轮播图盒子*/
+.main1_box2{
+	width:520px;
+	height:289px;
+	position:absolute;
+	top: 10px;
+	left:200px;
+}
+.jiantou{
+	position: relative;
+	left: 160px;
+	font-size: 13px;
+	color:#a0a0a0;
+}
+/*设置外部容器*/
+	#lun{
+		width:520px;
+		height:289px;
+		position:relative;
+	}
+	
+	/*设置所有li隐藏*/
+	#img li{
+		display:none;
+	}
+	
+	/*指定li显示*/
+	#img .active{
+		display:block;
+	}
+	
+	/*设置对应显示的数字样式*/
+	#num{
+		width:90px;
+		height:10px;
+		position:absolute;
+		bottom:25px;
+		left:180px;
+	}
+	#num li{
+		float:left;
+	}
+	#num li span{
+		display:block;
+		width:7px;
+		height:7px;
+		background:#fff;
+		border:1px solid #fff;
+		color:#fff;
+		border-radius:50%;
+		text-align:center;
+		line-height:30px;
+		margin-left:8px;
+	}
+	/*设置显示的指定的span样式*/
+	#num .active_num{
+		background:#ff5000;
+	}
+	
+	/*设置箭头的通用样式*/
+	#left,#right{
+		width:20px;
+		height:30px;
+		background:black;
+		opacity:0.6;
+		color:#fff;
+		line-height:30px;
+		font-size:20px;
+		position:absolute;
+		top:110px;
+	}
+	#left{
+		left:0px;
+		border-radius: 0 20px 20px 0;
+	}
+	#right{
+		right:0px;
+		border-radius: 20px 0px 0 20px;
+		text-align: right;
+	}
+/*天猫理想生活*/
+.tianli{
+	width: 520px;
+	height: 225px;background:#fff;
+}
+.lun2{
+	width: 520px;
+	height: 195px;background:#fff;
+	overflow: hidden;
+}
+.lun2box{
+	width: 1040px;
+	height: 195px;
+	position: relative;
+	left: 0px;
+}
+/*设置图片样式*/
+.lun2_pic1 div{
+	width: 130px;
+	height:67px;
+	float: left;
+
+}
+/*设置图片样式*/
+.lun2_pic1{
+	width: 520px;
+	height: 195px;
+	position: absolute;
+	float: left;
+}
+
+/*设置图片样式*/
+.lun2_pic1 img{
+	width: 100%;
+}
+/*天猫理想生活*/
+.lixi{
+	width:520px;
+	height:30px;
+	position: relative;
+}
+.tim{
+	width:138px;
+	height:30px;background:url(../imgs/timg.jpg)no-repeat;
+	background-size: 100% 100%;
+	display: inline-block;
+}
+.L{
+	font-size: 14px;
+	color: #333;
+}
+.R{
+	font-size: 12px;
+	color:#111;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+/*lun2_pic2*/
+.lun2_pic2{
+	width: 520px;
+	height: 195px;
+	float: right;
+}
+.lun2_pic2 div{
+	width: 50%;
+	height:195px;
+	float: left;
+}
+.lun2_pic2 img{
+	width: 100%；
+}
+/*设置num样式*/
+.num li{
+	width:16.66%;
+	height: 5px;
+	float: left;
+	background: red;
+}
+.num .show{
+	background: black;
+}
+/*天猫小广告*/
+.tian_banner{
+	width: 160px;
+	height: 513px;
+	position:absolute;
+	left:730px;
+	top: 10px;
+}
+/*这只小广告标题*/
+.tian_banner_pic1{
+	width: 160px;
+	height: 280px;background:url(../imgs/装修jpg.webp) no-repeat;
+}
+/*这只小广告标题*/
+.tian_banner_title{
+	line-height: 45px;
+	font-size: 14px;
+	color:#a0a0a0;
+}
+/*那只小广告*/
+.tian_banner_pic2{
+	width: 160px;
+	height: 230px;background:url(../imgs/空调品质.jpg) no-repeat;
+	position: absolute;
+	bottom:-30px;
+}
+/*淘宝头条*/
+.taobao_tou{
+	width: 890px;
+	height: 90px;
+	position:absolute;
+	bottom: 0px;
+	background:#fff;
+}
+/*淘宝头条logo*/
+.taobao_tou_logo{
+	width:180px;
+	height: 73px;
+	position:absolute;
+	top:26px;
+	left:20px;
+	background: url(../imgs/淘宝头条2.png)no-repeat;
+}
+/*设置字体样式*/
+.taobao_tou_logo p{
+	font-size: 13px;
+	color: #a0a0a0;
+	position:relative;
+	bottom: -30px;
+}
+/*淘宝头条轮播图框架*/
+.taobao_lunbox{
+	width: 679px;
+	overflow: hidden;
+	position:absolute;
+	top:11px;
+	right:10px;
+	height: 70px;
+}
+/*更多*/
+.taobao_lunbox span{
+	font-size: 14px;
+	color:#a0a0a0;
+	position:absolute;
+	top:5px;
+	right:7px;
+	height: 70px;
+	z-index: 1;
+}
+/*设置淘宝底部轮播框架*/
+.taobao_bo{
+	width: 679px;
+	height:210px;
+	position:relative;
+	top:0px;
+}
+
+/*淘宝头条轮播图*/
+.taobao_lun,.taobao_lun1,.taobao_lun2{
+	width: 679px;
+	height: 70px;
+	position:absolute;
+	background:#fff;
+}
+/*淘宝底部轮播图1*/
+.taobao_lun1{
+	top:70px;
+}
+/*淘宝底部轮播图2*/
+.taobao_lun2{
+	bottom:0px;
+}
+/*设置淘宝轮播图图片样式*/
+.taobao_lun_pic{
+	width: 120px;
+	height: 70px;
+}
+/*轮播图标题*/
+.h4{
+	font-weight: lighter;
+	position:absolute;
+	top:10px;
+	left: 140px;
+}
+/*轮播图内容*/
+.taobao_lun_text{
+	font-size: 13px;
+	color:#a0a0a0;
+	position:absolute;
+	top:30px;
+	left: 140px;
+}
+
+/*右侧淘宝登录*/
+.taobao_dl{
+	width: 290px;
+	height:614px;
+	position:absolute;
+	top: 10px;
+	right: 0px;
+	background:#fff;
+}
+/*楼层*/
+.floor{
+	width: 52px;
+	
+	background: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	position: absolute;
+	top: 280px;
+	right: -56px;
+	z-index: 3;
+}
+.floor_nav li{
+	cursor: pointer;
+}
+.floor li{
+	padding: 7px;
+	font-size:13px;
+	text-align: center;
+	display: block;
+}
+.h{
+	color: #ff0055;
+}
+.b{
+	color: #8d7afb;
+}
+.g{
+	color: #a8c001;
+}
+.floor .ding{
+	display: none;
+	color: #888;
+}
+/*淘宝登录界面 头部*/
+.dl{
+	width: 290px;
+	height:137px;
+	padding-top:8px;
+	background: url(../imgs/登陆背景.png)no-repeat;
+	/*设置背景图片样式*/
+	background-size:100% 100%;
+}
+/*用户头像*/
+.users_pic{
+	width: 50px;
+	height: 50px;
+	margin:0 auto;
+	background: url(../imgs/自己.jpg)no-repeat;
+	border-radius:50px;
+}
+/*登录提示语*/
+.hello{
+	text-align: center;
+	font-size: 12px;
+	font-family: '宋体';
+	color: #444;
+}
+/*设置文字样式*/
+.dl_text1{
+	width: 100%;
+	height: 20px;
+	margin-top: 5px;
+	color: red;
+}
+/*设置通用样式 节省代码*/
+.lin,.hui{
+	float: left;
+	height: 16px;
+	margin-right: 5px;
+	position: relative;
+	font-size: 13px;
+	background:#FFECF5;
+	border-radius: 15px;
+}
+/*设置单独样式*/
+.lin{
+	width: 107px;
+	margin-left: 48px;
+}
+/*设置单独样式*/
+.hui{
+	width: 92px;
+	
+}
+/*设置通用样式*/
+.xi1,.xi2{
+	width: 15px;
+	height: 15px;background: red; vertical-align: middle;
+	background: url(../imgs/小图标1.bmp)no-repeat -1px -1px;
+	border-radius: 15px;
+	position: absolute;
+	top:0px;
+	display: inline-block;
+}
+/*设置字体样式*/
+.lin a,.hui a{
+	position: relative;
+	left:17px;
+	color:red;
+}
+/*设置小图标样式*/
+.xi2{
+	background: url(../imgs/小图标2.bmp)no-repeat 0 1px;
+	border-radius: 15px;
+}
+/*收货 发货 付款 评价*/
+.ping{
+	width: 100%;
+	height:60px;
+}
+/*设置ul样式*/
+.ping ul{
+	float: left;
+	padding: 5px 5px 0 25px;
+	text-align: center;
+	font-size: 13px;
+}
+/*设置单独字体样式*/
+.ping ul li:nth-child(1){
+	color:red;
+	font-weight: bold;
+}
+/*设置字体样式*/
+.ping ul li:nth-child(2){
+	font-family: '宋体';
+}
+/*网上有害信息举报专区体样式*/
+.jb{
+	height: 17px;
+	color:red;
+	clear: both;
+	position: relative;
+	display: block;
+	padding: 4px 0 4px 0;
+	text-align: center;
+	font-size: 14px;
+	background:#FFECF5;
+}
+/*公告选项卡*/
+#text_box{
+	width: 290px;
+	height: 68px;
+	position: relative;
+	clear: both;
+}
+.gao{
+	float: left;
+	font-size: 14px;
+}
+/*设置单独样式*/
+.bian{
+	font-weight: bold;
+	border-bottom:2px solid red;
+}
+/*设置li样式*/
+.gao li{
+	display: block;
+	padding: 10.5px 15px 10.5px 15px;
+	float: left;
+}
+/*选项卡内容*/
+#text_box ul{
+	width: 100%;
+	position: absolute;
+	top:0px;
+	white-space:nowrap;
+	display: none;
+	overflow: hidden;
+	float: left;
+}
+/*设置显示*/
+#text_box .text_show{
+	display: block;
+}
+/*选项卡li样式*/
+#text_box a{
+	width: 125px;
+	float: left;
+	font-family: '宋体';
+	text-align: left;
+	padding: 10px;
+	font-size: 12px;
+	overflow: hidden;
+}
+.red{
+	color: red;
+}
+.hei{
+	color: #111;
+}
+/*菜单区*/
+.taobao_minute{
+	width: 290px;
+	height: 232px;
+	position: relative;
+	float: left;
+}
+.taobao_minute ul{
+	float: left;
+}
+/*设置通用内部补白属性 减少代码量*/
+.pp{
+	width: 42px;
+    text-align: center;
+    position: relative;
+    padding: 10px 15px 21px 14.5px;
+    font-size: 14px;
+}
+/*选项卡1*/
+.ka_1{
+	width:291px;
+	height:155px;
+	background:#fff;
+	position: absolute;
+	bottom:0%;display: none;
+	left: 0%;
+	
+}
+/*设置导航栏样式*/
+.ka_1_nav{
+	padding: 0px 0px 0px 15px;
+}
+/*设置li样式*/
+.ka_1_nav li{
+	float: left;
+	padding: 5px 15px 5px 2px;
+	font-size: 13px;
+}
+/*设置a样式*/
+.ka_1_nav li a{
+	color: #888;
+}
+/*input表单*/
+.in{
+	position: absolute;
+	top: 24%;
+	left: 5%;
+}
+/*下拉菜单*/
+.op{
+	width:59%;
+	position: absolute;
+	top: 37%;
+	left: 5%;
+}
+/*售价*/
+.q{
+	font-size: 14px;
+	position: absolute;
+	top:52%;
+	left: 5%;
+}
+.q span{
+	color: red;
+}
+.small{
+	color: #888;
+	font-weight: normal;
+}
+/*立即充值*/
+.chong{
+	width: 22%;
+	height:17%;
+	background: #ff5601;
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	border-radius: 2px;
+	position: absolute;
+	top:66%;
+	left: 5%;
+}
+/*选项卡2*/
+.ka_2{
+	width:291px;
+	height:155px;
+	background:#fff;
+	position: absolute;
+	bottom:0%;display: none;
+	left:0%;
+	
+}
+/*设置导航栏样式*/
+.ka_2_nav{
+	padding: 0px 0px 0px 5px;
+}
+/*设置li标签样式*/
+.ka_2_nav li{
+	float: left;
+	padding: 2px 5px 5px 2px;
+	font-size: 12px;
+}
+/*设置a标签样式*/
+.ka_2_nav li a{
+	color: #888;
+}
+/*设置查找按钮*/
+.cha{
+	width:16%;
+	height: 17%;
+	background: #ff5601;
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	border-radius: 2px;
+	position: absolute;
+	top:66%;
+	left: 5%;
+}
+/*设置单选表单*/
+.dd{
+	font-size: 12px;
+	position: absolute;
+	top: 12%;
+	left: 2%;
+}
+/*选项卡3*/
+.ka_3{
+	width:291px;
+	height:155px;
+	background:#fff;
+	position: absolute;display: none;
+	bottom:0%;
+	left:0%;
+}
+/*设置导航栏样式*/
+.ka_3_nav{
+	padding: 0px 0px 0px 5px;
+}
+/*设置li标签样式*/
+.ka_3_nav li{
+	float: left;
+	padding: 5px 5px 5px 10px;
+	font-size: 13px;
+}
+/*设置a标签样式*/
+.ka_3_nav li a{
+	color: #888;
+}
+/*设置查看保险按钮*/
+.kan{
+	width:36%;
+	height: 21%;
+	background: #ff5601;
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	border-radius: 2px;
+	position: absolute;
+	top:38%;
+	left: 6%;
+}
+.kan_bt{
+	position: absolute;
+	top:22%;
+	left: 6%
+}
+/*设置选项卡关闭按钮*/
+.c,.d,.e{
+	width: 20px;
+	height: 15px;
+	border:none; 
+	font-weight: lighter;
+	font-size: 12px;
+	color: #c0c0c0;
+	background: #fff;
+	position: absolute;
+	top: 0%;
+	right: 0%
+}
+.c:hover,.d:hover,.e:hover{
+	background: #f4f4f4;
+	color:#999;
+}
+/*设置通用属性 减少代码量*/
+.huafei,.caipiao,.fuwu,.lvxing,.dianying,.chexian,.jiudian,.shuidian,.game,.licai,.huiche,.yanchu{
+	width: 25px;
+    height: 25px;
+    margin-left: 8px;
+}
+/*设置边框 颜色*/
+.minute_1,.minute_2,.minute_3,.minute_4{
+	border-top:1px solid #f0f0f0 ;
+	border-right: 1px solid #f0f0f0 ;
+}
+/*设置边框 颜色*/
+.pp{
+	border-bottom:1px solid #f0f0f0 ;
+}
+/*插入图片*/
+/*充话费*/
+.huafei{
+	background: url(../imgs/菜单精灵图.png)no-repeat 0% 0%;
+}
+/*彩票*/
+.caipiao{
+	background: url(../imgs/菜单精灵图.png)no-repeat 0% 30.5%;
+}
+/*找服务*/
+.fuwu{
+	background: url(../imgs/菜单精灵图.png)no-repeat 0% 61.5%;
+}
+/*旅行*/
+.lvxing{
+	background: url(../imgs/菜单精灵图.png)no-repeat 0% 15.5%;
+}
+/*电影*/
+.dianying{
+	background: url(../imgs/菜单精灵图.png)no-repeat 0% 38.5%;
+}
+/*演出*/
+.yanchu{
+	background: url(../imgs/菜单精灵图.png)no-repeat 0% 69.5%;
+}
+/*车险*/
+.chexian{
+	background: url(../imgs/菜单精灵图.png)no-repeat 0% 7.5%;
+}
+/*酒店*/
+.jiudian{
+	background: url(../imgs/菜单精灵图.png)no-repeat 0% 46.3%;
+}
+/*水电煤*/
+.shuidian{
+	background: url(../imgs/菜单精灵图.png)no-repeat 0% 77.2%;
+}
+/*游戏*/
+.game{
+	background: url(../imgs/菜单精灵图.png)no-repeat 0% 23%;
+}
+/*理财*/
+.licai{
+	background: url(../imgs/菜单精灵图.png)no-repeat 0% 53.7%;
+}
+/*火车票*/
+.huiche{
+	background: url(../imgs/菜单精灵图.png)no-repeat 0% 84.7%;
+}
+/*阿里APP*/
+.aliApp{
+	width: 290px;
+	height: 104px;
+	clear: both;
+}
+/*设置文字样式*/
+.aliApp h3{
+	font-size:16px;
+	position: relative;
+	top:0%;
+	left: 2%;
+}
+/*更多*/
+.ali_more{
+	font-size: 14px;
+	font-family: '宋体';
+	font-weight: normal;
+	color:#999;
+	left: 177px;
+	position: relative;
+}
+/**/
+.aliApp_pic li{
+	float: left;
+	margin:5px 0 0 20px;
+}
+/*设置a显示块元素*/
+.aliApp_pic a{
+	width: 34px;
+	height: 34px;
+	display:block;
+	position: relative;
+}
+/*扫码*/
+.SM{
+	width: 90px;
+	height: 100px;position: absolute;
+	border: 1px solid #f0f0f0;
+	display: none;
+	top:-327%;
+	left: -88%;
+}
+/*添加背景图片*/
+/*淘宝*/
+.tao_logo{
+	background: url(../imgs/淘宝.webp)no-repeat;
+	background-size: cover;
+}
+/*天猫*/
+.tian_logo{
+	background: url(../imgs/天猫.webp)no-repeat;
+	background-size: cover;
+}
+/*聚划算*/
+.ju_logo{
+	background: url(../imgs/聚划算.webp)no-repeat;
+	background-size: cover;
+}
+/*支付宝*/
+.zhi_logo{
+	background: url(../imgs/支付宝.webp)no-repeat;
+	background-size: cover;
+}
+/*钉钉*/
+.gaode_logo{
+	background: url(../imgs/高德.webp)no-repeat;
+	background-size: cover;
+}
+/*旺旺*/
+.wang_logo{
+	background: url(../imgs/旺旺.webp)no-repeat;
+	background-size: cover;
+}
+/*土豆*/
+.tu_logo{
+	background: url(../imgs/土豆.webp)no-repeat;
+	background-size: cover;
+}
+/*闲鱼*/
+.xian_logo{
+	background: url(../imgs/闲鱼.webp)no-repeat;
+	background-size: cover;
+}
+/*虾米*/
+.xia_logo{
+	background: url(../imgs/虾米.webp)no-repeat;
+	background-size: cover;
+}
+/*优酷*/
+.feizhu_logo{
+	background: url(../imgs/飞猪.webp)no-repeat;
+	background-size: cover;
+}
+/*第五栏  生活研究所*/
+.life{
+	margin:0 auto;
+	width: 1190px;
+	height: 166px;
+	background:#fff;
+	position:relative;
+	top:10px;
+}
+/*生活研究所 左侧logo*/
+.life_logo{
+	margin:20px 0 20px 15px;
+	display: inline-block;
+}
+/*设置图片样式*/
+.life_logo img{
+	width:92px;
+	height: 24px;
+	vertical-align: middle;
+}
+/*设置标题样式*/
+.life_title{
+	width: 900px;
+	line-height: 30px;
+	color: #999;
+	margin: 5px 0 0 5px;
+	vertical-align: middle;
+	display: inline-block;
+}
+/*设置ul样式*/
+.life_box{
+	margin-left: 20px;
+}
+/*设置li样式*/
+.life_box li{
+	width:194px;
+	height: 82px;
+	float: left;
+}
+/*设置商品图片容器样式*/
+.life_pic{
+	width: 82px;
+	height: 82px;
+	float: left;
+	border:1px solid #13d0a1;
+	border-radius: 40px;
+}
+/*设置商品图片样式*/
+.life_pic img{
+	width: 100%;
+	border-radius: 40px;
+}
+/*设置文字容器样式*/
+.life_title_box{
+	width: 100px;
+	height: 70px;
+	float: right;
+}
+/*设置标题样式*/
+.li_title{
+	margin-top: 10px;
+	font-weight: normal;
+}
+/*设置文字样式*/
+.life_text1{
+	font-size: 15px;
+	color:#999;
+}
+/*设置文字样式*/
+.life_title2{
+	margin-top: 5px;
+	font-size: 14px;
+	color:#999;
+}
+/*设置♥样式*/
+.life_xin{
+	font-size: 16px;
+	color:#13d0a1;
+}
+/*第七栏  有好货 框架*/
+.buy{
+	margin:0 auto;
+	width: 1190px;
+	height: 658px;
+	position:relative;
+	top:20px;
+}
+/*有好货*/
+.good,.shopping{
+	width: 590px;
+	height: 658px; 
+	float: left;
+	position: relative;
+	background:#fff;
+}
+.buy_text{
+	width: 590px;
+	height: 60px;
+}
+.x_pic{
+	position:absolute;
+	top: 20px;
+	left:15px;
+}
+.c_pic{
+	width: 16px;
+	height:16px;
+	position:absolute;
+	top: 25px;
+	left:100px;
+}
+
+.d_title{
+	position:absolute;
+	top: 19px;
+	left:125px ;
+	font-size: 14px;
+}
+/*有好货商品容器*/
+.by_box{
+	width: 570px;
+	height:638px;
+	margin-left: 20px;
+}
+/*有好货商品1*/
+.good_buy{
+	width: 180px;
+	height:271px;
+	float: left;
+	margin:10px 5px 20px 0;
+}
+/*有好货图片*/
+.good_buy_pic{
+	width: 180px;
+	height:180px;
+	background: #a0a0a0;
+}
+/*有好货图片*/
+.good_buy_pic img{
+	width: 100%;
+	opacity:0.9;
+}
+/*有好货介绍*/
+.good_buy_box{
+	width: 180px;
+	height:91px;
+	overflow: hidden;
+}
+/*有好货标题*/
+.good_buy_title{
+	margin-left: 15px;
+	margin-top: 5px;
+}
+/*有好货内容*/
+.good_buy_text{
+	margin-top: 5px;
+	margin-left: 15px;
+	font-size: 14px;
+	color: #999;
+}
+/*有好货内容1*/
+.good_buy_text1{
+	line-height: 22px;
+    height: 22px;
+    margin-top:8px;
+   	margin-left: 15px;
+    color: #35b1ff;
+}
+/*618样式*/
+.clip{
+	border-radius: 50px;
+}
+/*爱逛街*/
+.shopping{
+	float: right;
+}
+/*设置字体颜色*/
+.ai_title{
+	margin-top: 20px;
+	font-size: 14px;
+	font-family: '宋体';
+	color: #666;
+}
+/*第八栏 海抢购*/
+.hai{
+	width: 1190px;
+	height: 264px;
+	margin:0 auto;
+	margin-top:30px;
+	background:#fff;
+}
+/*海抢购头部*/
+.h_h{
+	width:1190px;
+	height:60px;
+	position: relative;
+}
+/*海抢购左侧logo*/
+.hai_logo{
+	width:129px;
+	height:60px;
+	position: absolute;
+	left: 0px;
+}
+/*海抢购左侧logo样式*/
+.hai_logo img{
+	width:84px;
+	height:23px;
+	position: absolute;
+	top:15px;
+	left:25px;
+}
+/*海抢购距结束*/
+.d_title{
+	vertical-align: middle;
+	margin-top:4px;
+	display:inline-block;
+}
+
+/*海抢购换一换*/
+.q_h{
+	width:150px;
+	height:60px;
+	position: absolute;
+	line-height:60px;
+	right: 0px;
+}
+/*海抢购换一换*/
+.q_h span{
+	margin-left:10px;
+}
+/*海抢购商品*/
+.hai_shop{
+	width: 365px;
+	height:180px;
+	float: left;
+	position:relative;
+	padding:0 15px 0 15px;
+}
+/*海抢购商品1*/
+.hai_shop1_left{
+	width: 180px;
+	height:180px;
+	background:#f0f0f0;
+	float: left;
+}
+/*海抢购商品2*/
+.hai_shop1_right{
+	width: 160px;
+	height:180px;
+	float: left;
+}
+/*海抢购标题*/
+.hai_shop1_title{
+	font-size: 16px;
+	overflow: hidden;
+	font-weight: normal;
+	margin-top: 10px;
+}
+/*海抢购文字1*/
+.hai_shop1_text{
+	font-size: 14px;
+	margin-top: 25px;
+	margin-left: 10px;
+	color: #c0c0c0;
+}
+/*海抢购文字2*/
+.hai_shop1_text1{
+	color: red;
+	font-size: 20px;
+	position: absolute;
+	bottom:40px;
+}
+/*设置字体样式*/
+.hai_money{
+	font-size: 14px;
+}
+/*第九栏 小广告*/
+.small_banner{
+	width: 1190px;
+	height: 70px;
+	margin:0 auto;
+	margin-top:20px;
+	background:url(../imgs/小广告.jpg) no-repeat;
+
+}
+.g_l{
+	width: 1190px;
+	height: 538px;
+	margin:0 auto;
+	margin-top:10px;
+}
+/* 第十栏 每日好店*/
+.good_shop{
+	width: 590px;
+	height: 538px;
+	background: #fff;
+	float: left;
+	position: relative;
+	
+}
+/*每日好店标题*/
+.good_shop_title{
+	width: 400px;
+	line-height: 30px;
+	font-size: 14px;
+	color:#a0a0a0;
+	margin:20px 0 0 0;
+	display: inline-block;
+}
+/*每日好店logo*/
+.good_shop_logo img{
+	width: 100px;
+	height: 26px;
+	margin:5px 0 0 10px;
+	vertical-align: middle;
+	margin:0px 0 0 20px;
+}
+/*每日好店商品框架*/
+.good_shoping{
+	width:271px;
+	height:248px;
+	float: left;
+	margin-left: 12px;
+}
+/*设置更多样式*/
+.more{
+	font-size: 14px;
+	color:#a0a0a0;
+	position: absolute;
+	top:25px;
+	right:10px;
+}
+/*商品标题*/
+.good_shoping_title{
+	margin:10px 0 0 0px;
+	display: inline-block;
+}
+/*商品标题*/
+.small_title{
+	color:#555;font-size:16px;
+	line-height: 35px;
+	font-weight:normal;
+}
+/*商品介绍*/
+.good_shoping_text{
+	font-size: 14px;
+	color:#a0a0a0;
+	margin-left:10px;
+}
+/*商品左侧开始*/
+.good_left{
+	width:180px;
+	height: 180px;
+	background: gray;
+	float:left;
+}
+/*商品右侧开始*/
+.good_right{
+	width:89px;
+	height: 180px;
+	float: right;
+}
+/*右侧商品1*/
+.good_right_pic1{
+	width:89px;
+	height:89px;
+	background: gray;
+}
+/*右侧商品2*/
+.good_right_pic2{
+	width:89px;
+	height:89px;
+	margin-top:2px;
+	background: gray;
+}
+/*设置图片样式*/
+.good_shoping img,.hai_shop1_left img{
+	width:100%;
+	opacity:0.9;
+}
+/* 第十栏 淘宝直播*/
+.live{
+	width: 590px;
+	height: 538px;
+	float: right;
+	background:#fff;
+
+}
+/* 第十一栏 时尚爆料王*/
+.Modena{
+	width: 1190px;
+	height: 290px;
+	margin:0 auto;
+	margin-top:10px;
+}
+/*时尚爆料 左侧框架*/
+.Modena_left{
+	width: 840px;
+	height: 290px;
+	float: left;
+	background: #fff;
+}
+
+/*时尚爆料王 标题*/
+.Modena h1{
+	width: 40px;
+	height:55px;
+	line-height: 53px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #8558d6;
+	float: left;
+}
+/*时尚爆料王 标题*/
+.Modena h3{
+	width: 800px;
+	height:55px;
+	line-height: 55px;
+	font-weight: bold;
+	color: #ad45df;
+	float: left;
+}
+/*时尚爆料王 商品1*/
+.Modena_left1{
+	width: 219px;
+	height: 205px;
+	float: left;
+	padding:30px 40px 0 20px;
+	border-top:1px solid #f0f0f0;
+	border-right:1px solid #f0f0f0;
+}
+/*设置1-3标题样式*/
+.Mo_title{
+    padding-left: 10px;
+    font-weight: normal;
+    font-size:18px;
+    color:#777;
+    line-height: 32px;
+    height: 32px;
+}
+/*设置1-3文字样式*/
+.Mo_text{
+	font-size: 12px;
+	color:#a0a0a0;
+	display:table;
+}
+/*时尚爆料 右侧小广告*/
+.Modena_banner{
+	width: 300px;
+	height:250px;
+	float: right;
+	background: #fff;
+	padding:20px;
+}
+/* 第十二栏 品质家生活 框架*/
+.pin{
+	width: 1190px;
+	height: 768px;
+	margin:0 auto;
+	margin-top:10px;
+}
+/*品质家生活 标题*/
+.pin h1{
+	width: 40px;
+	height:55px;
+	line-height: 53px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #28abff;
+	float: left;
+}
+/*品质家生活 标题*/
+.pin h3{
+	width: 540px;
+	height:55px;
+	line-height: 55px;
+	font-weight: bold;
+	color: #2aabff;
+	float: left;
+}
+/* 第十二栏 品质家生活*/
+.pin_shop{
+	width: 588px;
+	height: 768px;
+	float: left;
+	background:#fff;
+}
+/*品质家生活 左侧框架*/
+.pin_shop_left{
+	width: 294px;
+	height: 714px;
+	float: left;
+}
+/*品质家生活 商品1*/
+.shop_left1{
+	width: 254px;
+	height: 318px;
+	float: left;
+	padding: 19px;
+	border-top:1px solid #f0f0f0;
+	border-right:1px solid #f0f0f0;
+}
+/*精简代码商品2-4设置通用属性*/
+/*品质家生活 商品2*/
+.shop_left2,.shop_left3,.shop_left4{
+	width: 292px;
+	height: 117px;
+	float: left;
+	display: block;
+	border-top:1px solid #f0f0f0;
+	border-right:1px solid #f0f0f0;
+}
+/*设置2-4图片样式*/
+.jl_pic{
+	margin-left: 162px;
+    padding-top: 10px;
+}
+/*设置2-4左侧文字框架*/
+.lf2_box{
+	width: 120px;
+	float: left;
+	padding-top: 35px;
+	padding-left: 40px;
+}
+/*设置2-4标题样式*/
+.jl_title{
+    padding-left: 10px;
+    font-weight: normal;
+    font-size:18px;
+    color:#777;
+    line-height: 32px;
+    height: 32px;
+}
+/*设置2-4文字样式*/
+.jl_text{
+	font-size: 12px;
+	color:#a0a0a0;
+	display:table;
+}
+/*品质家生活 右侧框架*/
+.pin_shop_right{
+	width: 294px;
+	height: 714px;
+	float:right;
+}
+/*精简代码右侧商品1-3设置通用属性*/
+.shop_right1,.shop_right2,.shop_right3{
+	height:171px;
+	padding:33px 19px;
+	border-top:1px solid #f0f0f0;
+	border-right:1px solid #f0f0f0;
+}
+
+/*设置1-3标题样式*/
+.jr_title{
+	height: 32px;
+    padding-left: 10px;
+    font-weight: normal;
+    font-size:18px;
+    color:#888;
+    line-height: 32px; 
+}
+/*设置1-3文字样式*/
+.jr_text{
+	margin-left: 5px;
+	font-size: 12px;
+	color:#a0a0a0;
+}
+/*设置1-3图片*/
+.jr_pic{
+	margin-top:25px;
+}
+/* 第十二栏 特色玩味控*/
+.pin_tese{
+	width: 590px;
+	height: 768px;
+	float: right;
+	background:#fff;
+}
+/*特色玩味控 标题*/
+.pin_tese h1{
+	width: 40px;
+	height:55px;
+	line-height: 53px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ff5000;
+	float: left;
+}
+/*特色玩味控 标题*/
+.pin_tese h3{
+	width: 540px;
+	height:55px;
+	line-height: 55px;
+	font-weight: bold;
+	color: #ff5d13;
+	float: left;
+}
+/* 第十三栏 实惠专业户*/
+.shi{
+	width: 1190px;
+	height: 251px;
+	margin:0 auto;
+	margin-top:10px;
+	background:#fff;
+}
+/*实惠专业户 标题*/
+.shi h1{
+	width: 40px;
+	height:55px;
+	line-height: 45px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #31ba98;
+	float: left;
+}
+/*实惠专业户 标题*/
+.shi h3{
+	width: 1150px;
+	height:55px;
+	line-height: 45px;
+	font-weight: bold;
+	color: #85d6c2;
+	float: left;
+}
+/*实惠专业户 商品*/
+.shi_shop{
+	width: 196px;
+	height:175px;
+	position:relative;
+	padding:20px 20px 0 20px;
+	float: left;
+	border: 1px solid #f0f0f0;
+}
+/*设特天天特价标题体样式*/
+.shi_shoping_title{
+	font-size: 18px;
+	font-weight: lighter;
+	position: absolute;
+	top:24px;
+	left:25px;
+	color:#666;
+}
+/*实惠专业户 开始*/
+.shi_shoping{
+	width: 120px;
+	height: 120px;
+	background:#c0c0c0;
+	position: absolute;
+	top: 58px;
+	left: 13px;
+}
+/*设特价专区字体样式*/
+.shi_text{
+	width: 91px;
+	height: 105px;
+	font-size: 16px;
+	font-weight:lighter;
+	color: #333;
+	position: absolute;
+	right: 0px;
+	top: 70px;
+}
+/*设特价专区字体样式*/
+.shi_say{
+    font-size: 14px;
+    color:#b0b0b0;
+}
+/*设特全场包邮体样式*/
+.shi_bao{
+	font-size: 12px;
+	line-height: 40px;
+    color:#f40;
+    padding:2px 4px 2px 4px;
+    border:1px solid red;
+    border-radius:10px;
+    position: relative;
+    right: 5px;
+    top: 10px;
+   
+}
+/* 第十四栏 热卖单品*/
+.hot{
+	width: 1190px;
+	height: 926px;
+	margin:0 auto;
+	margin-top:10px;
+	background:#fff;
+}
+/*热卖单品 标题*/
+.hot h1{
+	width: 40px;
+	height:55px;
+	background:#fff;
+	line-height: 53px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ff4d24;
+	float: left;
+}
+/*热卖单品 标题*/
+.hot h3{
+	width: 1150px;
+	height:55px;
+	line-height: 55px;
+	font-weight: bold;
+	color: #ff353d;
+	float: left;
+}
+/*热卖单品 导航栏*/
+.hot_nav{
+	width:100% ;
+	height:30px;
+	clear: both;
+	overflow: hidden;
+	border-bottom:1px solid #f0f0f0;
+}
+/*设置li样式*/
+.hot_nav>li{
+	float: left;
+	font-size: 12px;
+	margin:5px 5px 5px 10px;
+}
+/*设置a标签样式*/
+.hot_nav>li>a{
+	color: #666666;
+}
+/*热卖单品 商品*/
+.hot_shop{
+	width: 196px;
+	height: 312px;
+	position:relative;
+	padding:20px 20px 0 20px;
+	float: left;
+	border: 1px solid #f0f0f0;
+}
+
+/*热卖单品开始*/
+.hot_shoping{
+	width: 197px;
+	height: 197px;
+}
+
+/*设置热卖单品标题样式*/
+.hot_shoping_title{
+	margin-top: 7px;
+    line-height: 22px;
+    overflow: hidden;
+    height: 44px;
+    font-size: 14px;
+    color: #666666;
+    font-weight: normal;
+}
+/*设置字体颜色 红 样式 大小*/
+.hot_money{
+	margin-top: 10px;
+    color: #ff4400;
+    font-size: 20px;
+}
+/*设置￥样式*/
+.hot_money_pic{
+    font-size: 12px;
+}
+/*设置收藏样式*/
+.hot_say{
+    font-size: 12px;
+    color:#b0b0b0;
+}
+/*设置打折样式*/
+.del{
+    font-size: 12px;
+    color:#a0a0a0;
+}
+
+/*热卖商品 底部广告*/
+.hot_banner{
+	width: 1190px;
+	height: 170px;
+	clear:both;
+}
+.hot_banner1,.hot_banner2,.hot_banner3{
+	width: 375px;
+	height: 170px;
+	float: left;
+	margin:20px 11px 0 10px;
+}
+.hot_banner1{
+	background: url(../imgs/hot_banner1.jpg) no-repeat;
+}
+.hot_banner2{
+	background: url(../imgs/hot_banner2.jpg) no-repeat;
+}
+.hot_banner3{
+	background: url(../imgs/hot_banner3.jpg) no-repeat;
+}
+/* 第十五栏 猜你喜欢*/
+.guess{
+	width: 1190px;
+	height: 6069px;
+	margin:0 auto;
+	margin-top:10px;
+	background:#fff;
+}
+/*猜你喜欢 标题*/
+.guess h1{
+	width: 40px;
+	height:55px;
+	line-height: 45px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ff9f00;
+	float: left;
+}
+/*猜你喜欢 标题*/
+.guess h3{
+	width: 1150px;
+	height:55px;
+	line-height: 45px;
+	font-weight: bold;
+	color: #ff9f00;
+	float: left;
+}
+/*猜你喜欢的商品*/
+.guess_shop{
+	width: 196px;
+	height: 312px;
+	position:relative;
+	padding:20px 20px 0 20px;
+	float: left;
+	border: 1px solid #f0f0f0;
+}
+
+/*商品开始*/
+.shoping{
+	width: 197px;
+	height: 197px;
+}
+/*设置商品标题样式*/
+.shoping_title{
+	margin-top: 7px;
+    line-height: 22px;
+    overflow: hidden;
+    height: 44px;
+    font-size: 14px;
+    color: #666666;
+    font-weight: normal;
+}
+/*设置字体颜色 红 样式 大小*/
+.money{
+    color: #ff4400;
+    font-size: 20px;
+}
+/*设置￥样式*/
+.money_pic{
+    font-size: 12px;
+}
+/*寻找相似商品*/
+.find{
+	width:238px;
+	height:85px;
+	background:#ff4400;
+	position:absolute;
+	left:0px;
+	bottom: 0px;
+}
+/*寻找相似商品标题1*/
+.find1{
+	width:131px;
+	height:40px;
+	color: #fff;
+	font-size: 17px;
+	font-family: '宋体';
+	border-bottom: 1px solid #c0c0c0;
+	line-height: 40px;
+	text-align: center;
+	position:absolute;
+	left:50px;
+	bottom:41px;
+}
+/*寻找相似商品标题2*/
+.find2{
+	width:176px;
+	height:28px;
+	font-size:13px;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	position:absolute;
+	left:31px;
+	bottom:13px;
+}
+/*设置寻找相似商品隐藏*/
+.find{
+	display: none;
+}
+/*精简代码统一设置图片属性*/
+.j{
+	width: 100%;
+	height: 100%;
+}
+/* 第十六栏 消费者保障*/
+.user{
+	width: 1190px;
+	height: 180px;
+	position: relative;
+	margin:0 auto;
+	margin-top:10px;background:#f4f4f4;
+}
+.user_wei{
+	width: 25%;
+	height: 95px;
+	float: left;
+	margin: 50px 0 50px 0;
+}
+.user_wei ul{
+	margin-left: 5px;
+}
+.user_wei li{
+	float: left;
+	margin-top: 5px;
+	margin-left: 6px;
+}
+.user_wei li a{
+	font-size: 14px;
+	color:#a0a0a0;
+}
+.user_wei h4 img{
+	position: relative;
+	top:10px;
+	left:-5px;
+}
+.user_wei h4{
+	padding-left: 15px;
+	position:relative;
+	top:-5px;
+	left:15px;
+}
+/*******底部******/
+.white{
+	clear: both;
+	width: 1370px;
+	height: 240px;
+	background:#fff;
+	position: relative;
+	left:-90px;
+	z-index: 1;
+}
+.footer{
+	width: 1190px;
+	height: 240px;
+	overflow: block;
+	position: absolute;;
+	background:#fff;
+	right: 90px;
+}
+/*阿里合作伙伴*/
+.ali,.guanyu{
+	width: 1184px;
+	height:50px;
+	padding-top: 10px;
+	padding-left:6px;
+}
+/*关于淘宝*/
+.guanyu{
+	padding-left:6px;
+	border-top: 2px solid #c0c0c0;
+}
+/*设置相同属性精简代码量*/
+.ali li,.guanyu li,.jingying li{
+	float: left;
+	font-size: 12px;
+	color: #a0a0a0;
+	margin-left:8px;
+}
+/*设置颜色*/
+.ali a,.guanyu a{
+	color: #5c5c5c; 
+}
+/*警察gif*/
+.wj{
+	margin:0 12px 0 12px;
+	vertical-align: middle;
+}
+/*设置底部精灵图*/
+.j_1{	
+	background: url(../imgs/底部精灵图.jpg);
+	width: 30px;
+}
+.j_2{	
+	background: url(../imgs/底部精灵图.jpg) -40px 0px;
+	width: 33px;  
+}
+.j_3{	
+	background: url(../imgs/底部精灵图.jpg) -80px 0px;
+	width: 50px;  
+}
+.j_4{	
+	background: url(../imgs/底部精灵图.jpg) -140px 0px;
+	width: 83px;  
+}
+.j_5{	
+	background: url(../imgs/底部精灵图.jpg) -240px 0px;
+	width: 94px;
+}
+.j_6{	
+	background: url(../imgs/底部精灵图.jpg) -426px 0px;
+	width:224px; 
+}
+.j_7{	
+	background: url(../imgs/底部精灵图.jpg) -650px 0px;
+	width:105px; 
+}
+.j_8{	
+	background: url(../imgs/底部精灵图.jpg) -345px 0px;
+	width:82px; 
+}
+.j_9{	
+	background: url(../imgs/底部精灵图.jpg) -761px 0px;
+	width:97px; 
+}
+.j_10{	
+	background: url(../imgs/底部精灵图.jpg) -884px 0px;
+	margin-left: 15px;
+	width:249px; 
+}
+.j_11{	
+	background: url(../imgs/底部精灵图.jpg)no-repeat -861px 0px;
+	width:20px; 
+	height: 20px;
+	margin-left: 5px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.j_1,.j_2,.j_3,.j_4,.j_5,.j_6,.j_7,.j_8,.j_9,.j_10{
+	height: 40px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 28px;
+	background-repeat:no-repeat;
+}  
+/*设置li特效*/
+.nav1 li:hover,.search_nav>li:hover,.gen:hover{
+	color:red;
+	cursor:pointer;
+}
+
+/*设置淘宝轮播特效*/
+.taobao_bo:hover{
+	top:-70px;
+}
+/*设置热卖单品的特效*/
+.hot_shop:hover,.guess_shop:hover{
+	border:1px solid red;
+}
+/*热卖单品特效*/
+.hot_shoping:hover,.good_buy_pic:hover,
+.shi_shoping:hover,.Modena_left1:hover,
+.Modena_banner:hover,.good_left:hover,
+.good_right_pic1:hover,.good_right_pic2:hover,
+.small_banner:hover,.hai_shop1_left:hover,
+.life_pic:hover{
+	cursor: pointer;
+	opacity:0.7;
+}
+/*设置打折样式特效*/
+.del:hover{
+	cursor: pointer;
+    text-decoration:none;
+}
+/*设置图片特效*/
+.shoping:hover,.{
+	-webkit-transition: all 0.7s ease;
+	opacity: 0.6;
+	cursor: pointer;
+}
+/*设置通用鼠标样式*/
+a,h4,.Modena_left,.good_buy_text1,.ch,
+.ch1,#baby,.banner_pic,.banner_warp>img,
+.zt_nav li,.zt_nav h2,.search>img,.hot_nav li a:hover{
+	cursor: pointer;
+}
+.hidden a:hover,.life_title_box:hover,.hot_nav li a:hover,.footer a:hover{
+	color:red;
+}
+.life_pic:hover{
+	border:1px solid red;
+}
+.qq{
+	width: 200px;
+	height: 30px;
+	display: block;
+	padding: 100px;
+}
+/*设置选项卡隐藏*/
+.ch1,.nav2_may,.shou_may,.mai_may,.kfu_may,.wz{
+	display: none;
+}
+.small_banner,.g_l,.Modena,.pin,.shi,.hot,.guess,.user,.hai,.buy,.life{
+
+}

@@ -1,0 +1,655 @@
+
+
+
+/*设置通用属性*/
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-family:'Tahoma';
+} 
+a{
+	text-decoration: none;
+}
+/*设置主体框架属性*/
+body{
+	margin: 0 auto;
+	width:1366px;
+	height:700px;
+	overflow-x: hidden;
+}
+/*设置字体不换行保留自己*/
+.good,.Modena,.guanyu,.shi_bao,.search_nav li{
+	white-space:nowrap;
+}
+
+/*设置字体单独颜色*/
+.red{
+	color: red;
+	text-align: center;
+	font-size: 13px;
+}
+.lis .a1{
+	background: red;
+}
+#red{
+	color: red;
+	text-align: center;
+	font-size: 13px;
+}
+/*设置头部框架*/
+#header{
+	margin: 0 auto;
+	width: 100%;
+    height: 35px;
+    position: relative;
+    background: #f4f4f4;
+}
+/*设置左侧导航栏*/
+.nav{
+	width:25%;
+	height: 35px;
+	position: absolute;
+	left:6%;
+}
+/*设置导航栏1*/
+.nav1{
+	width:72%;
+	height:35px;
+	position: absolute;
+	top: 2px;
+	left: 100px;
+}
+.nav1 a{
+	color: #888;
+}
+.nav1 a:hover{
+	color: red;
+}
+/*设置li样式*/
+.nav1 li{
+	float: left;
+	line-height: 31px;
+	font-size: 12px;
+	padding: 0 5px 0 5px;
+
+}
+
+/*设置导航栏2*/
+.nav2{
+	width:887px;
+	height:35px;
+	position: absolute;
+	top: 0px;
+	right:-88px;
+}
+/*我的淘宝*/
+.nav2_may{
+	width: 90px;
+	height: 74px;
+	z-index: 1;
+	color: #666;
+	line-height: 35px;
+    font-size: 12px;
+	position: absolute;
+	top: 34px;
+	left: 78px;
+	background: #fff;
+}
+/*设置下拉栏样式*/
+.nav2_may>p{
+	padding-left:13px; 
+}
+/*购物*/
+.gouwu{
+	position: relative;
+	top:3px;
+}
+/*卖家中心*/
+.mai{
+	width:65px;
+	position: relative;
+}
+.mai_may{
+	width: 84px;
+	height: 213px;
+	color: #666;
+	font-size: 12px;
+	line-height: 25px;
+	background: #fff;
+	position: absolute;
+	top: 34px;
+	left:406px;
+	z-index: 1;
+}
+/**/
+.mai_may p{
+	 padding-left:5px; 
+}
+/**/
+.maytao{
+	width:70px;
+}
+/*联系客服*/
+.kfu{
+	width:65px;
+	position: relative;
+}
+/*下拉菜单*/
+.kfu_may{
+	width: 71px;
+	height: 70px;
+	color: #666;
+	font-size: 12px;
+	padding-left:5px; 
+	line-height: 25px;
+	background: #fff;
+	position: absolute;
+	top: 34px;
+	left:484px;
+	z-index: 1;
+}
+/*收藏*/
+.shou{
+	width: 70px;
+	position: relative;
+}
+.xing{
+	font-size:14px;
+	color:#a0a0a0;
+	display: inline-block;
+}
+/*收藏夹下拉栏*/
+.shou_may{
+	width: 74px;
+	height: 74px;
+	color: #666;
+	line-height: 35px;
+    font-size: 12px;
+	text-align: center;
+	background: #fff;
+	position: absolute;
+	top: 34px;
+	left:244px;
+	z-index: 1;
+}
+/*设置li样式*/
+.nav2>li{
+	float: left;
+	line-height: 35px;
+	font-size: 12px;
+	padding-left: 3px;
+	padding: 0 5px 0 8px;
+
+}
+/*网站导航*/
+.wz{
+	width: 1190px;
+	height: 310px;
+	position: absolute;
+	top:30px;
+	left:27px;
+	background:#fff;
+	z-index: 1;
+}
+/*网站导航 下拉菜单*/
+.wz_zhuti,.wz_tese,.wz_aliapp,.wz_jincai{
+	width:22.8%;
+	height: 92%;
+	padding: 1%;
+}
+/*网站导航 下拉菜单 右侧边框*/
+.wz_zhuti,.wz_tese,.wz_aliapp{
+	border-right:1px solid #f0f0f0;
+}
+/*网站导航 下拉菜单 底部边框*/
+.wz_zhuti,.wz_tese,.wz_aliapp,.wz_jincai{
+	float: left;
+	border-bottom:1px solid #f0f0f0;
+}
+/*主题市场标题*/
+.wz_zhuti h3,.wz_tese h3,.wz_aliapp h3,.wz_jincai h3{
+	font-size: 17px;
+	font-family: '宋体';
+	font-weight: bold;
+}
+/*主题市场标题*/
+.wz_zhuti h3{
+	color: #fc4200;
+}
+/*设置 li样式*/
+.wz_zhuti li{
+	width: 23%;
+	padding: 5px 5px 5px 0;
+	float: left;
+}
+/*设置 a样式*/
+.wz_zhuti a{
+	padding: 5px;
+	border-radius: 4px;
+	color:#666;
+	font-family: '宋体';
+	font-size: 13px;
+}
+/*特色标题*/
+.wz_tese h3{
+	color: #9fb838;
+}
+/*设置 li样式*/
+.wz_tese li{
+	width: 31%;
+	padding: 5px 5px 5px 0;
+	float: left;
+}
+/*设置 a样式*/
+.wz_tese a{
+	color:#666;
+	font-family: '宋体';
+	padding: 5px;
+	border-radius: 4px;
+	font-size: 13px;
+}
+/*阿里app标题*/
+.wz_aliapp h3{
+	color: #d75696;
+	font-family: '黑体';
+}
+/*设置 li样式*/
+.wz_aliapp li{
+	width: 31%;
+	padding: 5px 5px 5px 0;
+	float: left;
+}
+/*设置 a样式*/
+.wz_aliapp a{
+	color:#666;
+	font-family: '宋体';
+	padding: 5px;
+	border-radius: 4px;
+	font-size: 13px;
+}
+/*精彩锦集标题*/
+.wz_jincai h3{
+	color: #40a7de;
+}
+/*设置 li样式*/
+.wz_jincai li{
+	width: 47%;
+	padding: 5px 5px 5px 0;
+	float: left;
+}
+/*设置 a样式*/
+.wz_jincai a{
+	color:#666;
+	padding: 5px;
+	border-radius: 4px;
+	font-family: '宋体';
+	font-size: 13px;
+}
+/*设置隐藏*/
+.wz,.ch1,.nav2_may,.shou_may,.mai_may,.kfu_may{
+	display: none;
+}
+
+/*用户注册*/
+.zc{
+	width: 1197px;
+	height:133px;
+	margin:0 auto;
+	position: relative;
+}
+/*logo*/
+.logo{
+	width: 114px;
+	height: 54px;
+	position: absolute;
+	top:17px;
+	left: 0px;
+}
+/*标题*/
+.user{
+	font-size:25px;
+	font-weight: lighter;
+	font-family: '黑体';
+	position: absolute;
+	top: 26px;
+	left: 128px;
+}
+/*注册标题*/
+.shezhi{
+	width: 1197px;
+	height:47px;
+	border-bottom:2px solid #f4f4f4;
+	margin:0 auto;
+	position: absolute;
+	bottom: 0px;
+}
+/*注册标题*/
+.lis{
+	width: 640px;
+	height: 50px;
+	margin:0 auto;
+}
+/*注册标题*/
+.lis li{
+	float: left;
+	text-align: center;
+	line-height: 29px;
+	padding:  10px 20px 10px 20px;
+}
+.lis_1{
+	border-bottom: 2px solid red;
+	font-weight:bold;
+}
+.lis a{
+	width: 27px;
+	height: 27px;
+	margin-right: 5px;
+	display: inline-block;
+	background: #e0e0e0;
+	color: #fff;
+	border-radius: 50%;
+
+}
+.lis span{
+	color: #999999;
+}
+/*内容*/
+.content{
+	width: 1197px;
+	height: 387px;
+	margin:0 auto;
+}
+.con_1{
+	width: 470px;
+	height: 300px;
+	margin:0 auto;
+}
+/*注册协议*/
+.xieyi{
+	width: 722px;
+	height:362px;background: #fff;
+	padding: 20px;
+	border:1px solid #c0c0c0;
+	line-height: 23px;
+	position: absolute;
+	top: 100px;
+	left: 290px;
+}
+.xieyi h3{
+	font-size: 16px;
+	font-family: '宋体';
+}
+.xieyi p{
+	font-size: 13px;
+	font-family: '宋体';
+}
+.a{
+	color: red;
+}
+.a:hover{
+	text-decoration:underline;
+}
+.b3{
+	width: 25px;
+	height:25px;
+	background: #fff;
+	color: #c0c0c0;
+	border:none;
+	position: absolute;
+	top:0px;
+	right: 0px;
+}
+.b4{
+	width: 186px;
+	height:40px;
+	background: #ff4001;
+	color: #fff;
+	font-family: '宋体';
+	font-weight:bold;
+	font-size: 18px;
+	border-radius: 4px;
+	border:none;
+	position: absolute;
+	bottom:31px;
+	right: 309px;
+}
+
+.b4:hover{
+	cursor:pointer;
+}
+
+/*遮罩*/
+#zhe{
+	position:absolute;
+	left:0;
+	top:0;
+	background:#777;
+	opacity:0.6;
+	z-index:1;
+}
+/*登陆*/
+#zc{
+	width:355px;
+	height:320px;
+	background:#ff6699;
+	position:absolute;display: none;	
+	left:490px;
+	top:122px;		
+	z-index:2;
+}
+/*关闭*/
+.close{
+	width: 45px;
+	height:35px;
+	font-size: 20px;
+	cursor: pointer;
+	background: #fff;
+	color: #c0c0c0;
+	border:none;
+	position:absolute;
+	right:0;
+}
+.yz{
+	font-weight: lighter;
+	font-family: '宋体';
+	font-weight: bold;
+	position: absolute;
+	top:42px;
+	left: 40px;
+}
+.logo{
+	width: 100px;
+	height: 50px;
+	background: url(../imgs/淘宝logo.jpg)no-repeat;
+	overflow: hidden;
+	background-size: 100%;
+	z-index: 2;
+	position: absolute;
+	top:3px;
+	left: 8px;
+}
+#in1{
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	top: 76px;
+	left: 40px;
+}
+#in2{
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	top: 117px;
+	left: 40px;
+}
+.b1{
+	width: 200px;
+	height: 50px;
+	border: none;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	background: #3f89ec;
+	position: absolute;
+	top: 200px;
+	left: 40px;
+}
+.c2{
+	color: #888;
+	font-size: 14px;
+	position: absolute;
+	top: 154px;
+	left: 40px;
+}
+.in3{
+	color: #3f89ec;
+	font-size: 14px;
+	position: absolute;
+	top: 281px;
+	left: 210px;
+}
+.in3 a{
+	color: #3f89ec;
+}
+.t4{
+	width: 200px;
+	height: 34px;
+	line-height: 34px;
+	position: absolute;
+	top: 64px;
+	left:21px;
+}
+.in4{
+	width: 200px;
+	height: 34px;
+	line-height: 34px;
+	font-weight: bold;
+	font-size: 16px;
+	border:1px solid #f4f4f4;
+	position: absolute;
+	top: 63px;
+	left:83px;
+}
+.t5{
+	position: absolute;
+	top: 64px;
+	left:219px;
+}
+.t6{
+	position: absolute;
+	top: 64px;
+	left:219px;
+}
+.in5{
+	border: 1px solid #f4f4f4;
+	width: 140px;
+	height: 33px;
+	
+}
+.in_box{
+	width:400px; 
+	height:300px;
+	position: absolute;
+	top: 200px;
+	left: 430px;
+}
+.b6{
+	width:185px; 
+	height:40px;
+	border: none;
+	color: #fff;
+	font-family: '宋体';
+	font-size: 18px;
+	border-radius: 4px;
+	background: #ededed;
+	position: absolute;
+	top: 200px;
+	left: 125px;
+}
+.b6:hover{
+	background: #f4f4f4;
+	cursor: pointer;
+}
+/*底部*/
+.footer{
+	width: 1080px;
+	height: 40px;
+	margin: 0 0px 0 90px;
+	padding: 0 0 0 5px;
+	border-top:1px solid #c0c0c0;
+	border-bottom:1px solid #c0c0c0;
+}
+.ali li{
+	float: left;
+	margin-left: 2px;
+	padding: 3px;
+	border-top:#f4f4f4;
+	border-bottom:#f4f4f4;
+	line-height: 30px;
+	font-size: 12px;
+	color:#666;
+}
+/*关于*/
+.guanyu{
+	width: 1022px;
+	height: 70px;
+	margin:0 auto;
+	line-height: 30px;
+}
+
+.p1{
+	font-size: 12px;
+	color:#444;
+	margin-left: 5px;
+}
+.p2{
+	font-size: 12px;
+	color:#999;
+	margin-left: 5px;
+}
+
+
+
+
+/*遮罩*/
+.zhe{
+	position:absolute;
+	left:0;
+	top:0;
+	background:#777;
+	opacity:0.6;
+	z-index:1;
+}
+/*登陆*/
+#zc{
+	width:355px;
+	height:320px;
+	background:#fff;
+	position:absolute;		
+	left:490px;
+	top:100px;		
+	z-index:2;
+}
+/*关闭*/
+.close{
+	position:absolute;
+	right:0;
+}
+
+#tx1{
+	color: #30c373;
+	font-size: 12px;
+	position: absolute;
+	top: 85px;
+	left: 250px;
+}
+#tx2{
+	color: #30c373;
+	font-size: 12px;
+	position: absolute;
+	top: 125px;
+	left: 250px;
+}

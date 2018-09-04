@@ -1,0 +1,363 @@
+/*设置通用属性*/
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-family:'Tahoma';
+} 
+/*设置主体框架属性*/
+body{
+	margin: 0 auto;
+	width:1366px;
+	height:937px;
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+}
+/*设置头部*/
+.header{
+	margin:0 auto;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top:0%;
+	left: 0%;
+}
+/*左侧logo*/
+.logo{
+	width: 115px;
+	height: 52px;background: url(../imgs/淘宝logo.jpg)no-repeat;
+	background-size:100% 100%;
+	position: absolute;
+	top:19%;
+	left: 9%;
+}
+/*设置提示*/
+.tishi{
+	width: 812px;
+	height:25px;background: #fef2f2;
+	font-size: 12px;
+	color: #888;
+	border:1px solid red;
+	text-align: center;
+	line-height: 25px;
+	position: absolute;
+	top:25%;
+	left: 23%;
+}
+/*提示信息图片*/
+.xinxi{
+	width: 22px;
+	height: 16px;
+	background: url(../imgs/xinxi.jpg)no-repeat;
+	position: relative;
+	top: 76%;
+	left: 76%;
+}
+/*设置建议*/
+.jianyi{
+	width: 124px;
+	height:18px;
+	line-height:18px;
+	font-size: 12px;
+	position: absolute;
+	top:77%;
+	left: 78%;
+}
+/*设置背景*/
+.bei{
+	width: 100%;
+	height:668px;background:url(../imgs/背景.jpg)no-repeat 53% 0%;
+	margin:0 auto;
+}
+/*设置主体*/
+.centent{
+	width: 347px;
+	height:352px;
+	background:#ffebf2;
+	position: absolute;
+	top:200px;
+	right:132px;
+}
+/*设置主体*/
+.centent1{
+	width: 347px;
+	height:352px;
+	background:#ffebf2;
+	position: absolute;
+	top:200px;
+	z-index: 1;
+	right:132px;
+}
+/**/
+.centent1 h3{
+	font-size: 16px;
+	position: absolute;
+	top:5%;
+	left:6%;
+	font-weight: bold;
+	line-height: 40px;
+}
+.saoan{
+	width: 141px;
+	height: 29px;
+	background: url(../imgs/saoan.kpg.bmp)no-repeat;
+	position: absolute;
+	top:1%;
+	left:41%;
+}
+/**/
+#b1{
+	width: 260px;
+	height: 39px;
+	padding-left: 50px;
+	position: absolute;
+	top:17%;
+	left: 5%;
+}
+/**/
+#b2{
+	width: 260px;
+	height: 39px;
+	padding-left: 50px;
+	position: absolute;
+	top:34%;
+	left: 5%;
+}
+.num{
+	font-size: 14px;
+	color: #30c373;
+	position: absolute;
+	top: 71px;
+	left: 258px;
+}
+.num1{
+	font-size: 14px;
+	color: #30c373;
+	position: absolute;
+	top: 130px;
+	left:258px;
+}
+.bian1{
+	width: 50px;
+	height:50px;background: #ffebf2;
+	border: none;
+	opacity: 0.8;
+	cursor: pointer;
+	background: url(../imgs/aa.jpg)no-repeat;
+	position: absolute;
+	top: 0px;
+	right:0px;
+}
+.bian2{
+	width: 50px;
+	height:50px;background: #ffebf2;
+	border: none;
+	opacity: 0.8;
+	cursor: pointer;
+	background: url(../imgs/aaa.jpg)no-repeat;
+	position: absolute;
+	top: -35px;
+	right:-160px;
+}
+/*设置登陆*/
+.dl{
+	width: 155px;
+	height:40px;
+	position: absolute;
+	top:10%;
+	left: 9%;
+}
+/**/
+.dl h3{
+	font-size: 16px;
+	position: absolute;
+	top:-21%;
+	left: -2%;
+	font-weight: bold;
+	line-height: 40px;
+}
+/*密码登录*/
+.mima{
+	width:142px; 
+	height:32px;
+	background: url(../imgs/密码登陆.jpg)no-repeat;
+	position: absolute;
+	top:-76%;
+	left: 78%;
+}
+/*二维码*/
+.ma{
+	width:142px ;
+	height: 142px;
+	position: absolute;background:url(../imgs/二维码QQ.png)no-repeat;
+	top:154%;
+	left: 40%;
+}
+.sao{
+	width: 36px;
+	height:32px;
+	background: url(../imgs/sao.jpg)no-repeat;
+	position: absolute;
+	top:560%;
+	left: 26%;
+}
+.open{
+	width: 221px;
+	height: 30px;
+	font-size: 14px;
+	color:#888;
+	position: absolute;
+	top:221px;
+	left:48%
+}
+
+.ss{
+	width: 100px;
+	font-size: 14px;
+	color: #c0c0c0;
+	position: absolute;
+	top:240px;
+	left: 74px;
+}
+/**/
+.user{
+	width: 42px;
+	height:42px;
+	background: url(../imgs/user.jpg)no-repeat;
+	position: absolute;
+	top:17.3%;
+	left: 5.3%;
+}
+/**/
+.lock{
+	width: 42px;
+	height:42px;
+	background: url(../imgs/lock.jpg)no-repeat;
+	position: absolute;
+	top:34.3%;
+	left: 5.26%;
+}
+.dl_button{
+	width: 312px;
+	height:44px;
+	border:none;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	font-size:16px;
+	font-weight: bold;
+	border-radius: 3px;
+	background: #f52b00;
+	position: absolute;
+	top:55%;
+	left: 5%;
+}
+
+.p1{
+	font-size:14px;
+	color: #888;
+	position: absolute;
+	top:74%;
+	left: 9%;
+}
+.p1 a{
+	padding-right: 20px;
+}
+.p2{
+	font-size:12px;
+	color: #888;
+	position: absolute;
+	top:84%;
+	left: 32%;
+}
+.p2 a{
+	padding-left: 10px;
+	color: #888;
+}
+.centent1 a:hover{
+	color: red;
+	cursor:pointer;
+}
+/**/
+.weibo{
+	width:18px; 
+	height: 18px;
+	border-radius: 10px;
+	background: url(../imgs/weibo.jpg)no-repeat;
+	position: absolute;
+	top:74%;
+	left: 3%;
+}
+.zhifubao{
+	width:18px; 
+	height: 18px;
+	border-radius: 10px;
+	background: url(../imgs/zhifubao.jpg)no-repeat;
+	position: absolute;
+	top:74%;
+	left: 25.5%;
+}
+/*设置底部*/
+.footer{
+	width: 1199px;
+	height: 147px;
+	margin:0 auto;
+	position: relative;
+}
+/**/
+.footer_nav{
+	width: 1060px;
+	height:40px;
+	border-top:1px solid #c0c0c0;
+	border-bottom:1px solid #c0c0c0;
+	padding-left:5px; 
+}
+/**/
+.footer_nav li{
+	float: left;
+	color: #999;
+	line-height: 40px;
+}
+.footer_nav li a{
+	color: #333;
+	font-size: 12px;	
+	padding-right:12px;
+	text-align: center;
+}
+.footer a:hover{
+	color: red;
+}
+.guanyu{
+	height: 40px;
+	padding: 2px;
+	line-height: 40px;
+	position: absolute;
+	top:33%;
+	left:0%;
+}
+/**/
+.guanyu li{
+	float: left;
+	font-size: 12px;
+}
+.wangluo{
+	font-size: 12px;
+	color: #888;
+	position: absolute;
+	top:61%;
+	left: 0%;
+}
+.banquan{
+	color:#888;
+	font-size:14px;
+}
+/*警察gif*/
+.wj{
+	margin:0 12px 0 12px;
+	vertical-align: middle;
+	position: absolute;
+	top:77%;
+	left:-1%;
+}
